@@ -1,0 +1,12 @@
+/*
+ * RESET
+ */
+a, body, div, footer, h1, h2, header, html, img, li, p, span, ul{
+  margin: 0;
+  padding: 0;
+  border: 0;
+/*
+  font: inherit;
+  font-family: inherit;
+*/
+}

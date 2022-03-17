@@ -1,0 +1,31 @@
+{
+    "extends": "standard",
+    "env": {
+        "browser": true,
+        "jquery" : true
+    },
+    "globals": {
+        "Copper": true,
+        "google": true,
+        "THREE": true
+    },
+    "rules": {
+        "indent": ["error", 2, { "SwitchCase": 1 }],
+        "no-new": 0,
+        "no-multi-spaces": ["error", {
+            exceptions: {
+                "VariableDeclarator": true,
+                "ImportDeclaration": true
+            }
+        }],
+        "no-labels": ["error", { "allowLoop": true }],
+        "no-unused-vars": 0,
+        "object-property-newline": 0,
+        "object-curly-spacing": ["error", "never"],
+        "padded-blocks": ["error", {
+            "blocks": "never",
+            "classes": "always",
+            "switches": "never"
+        }]
+    }
+}
